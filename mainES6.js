@@ -59,6 +59,26 @@ class UI{
 
 }
 
+//class LocalStorage
+class Store{
+    
+    static getBooks() {
+        
+    }
+    
+    static displayBooks() {
+        
+    }
+
+    static addBook() {
+        
+    }
+
+    static removeBook() {
+        
+    }
+}
+
 //create event listeners for add book
 document.querySelector('#book-form').addEventListener('submit', function (e) {
     //get form values
@@ -87,8 +107,6 @@ document.querySelector('#book-form').addEventListener('submit', function (e) {
         //clear fields
         ui.clearFields();
     }
-
-    
 
     e.preventDefault();
 })
