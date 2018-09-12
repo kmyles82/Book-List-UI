@@ -1,11 +1,11 @@
-//Book constructor
+//Book function constructor
 function Book(title, author, isbn) {
     this.title = title;
     this.author = author;
     this.isbn = isbn;
 }
 
-//UI constructor
+//UI function constructor
 function UI() { }
 
 //add book to list
