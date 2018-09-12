@@ -36,9 +36,15 @@ UI.prototype.showAlert = function (msg, className) {
     //get the parent
     const container = document.querySelector('.container');
     //get form
+    // const h1 = document.querySelector('h1');
     const form = document.querySelector('#book-form');
     //insert on parent before container before the form
     container.insertBefore(div, form);
+    //timeout after 3 seconds
+    setTimeout(function () {
+        document.querySelector('.alert').remove();
+    }, 3000)
+
 }
 
 //clear fields
